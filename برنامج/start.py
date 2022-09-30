@@ -74,7 +74,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹ قناة السورس ›", url=f"https://t.me/kafren1"
+                        "‹ قناة السورس ›", url=f"https://t.me/Mus_3b2"
                     ),
                     InlineKeyboardButton(
                         "‹ قناة البوت ›", url=f"https://t.me/{UPDATES_CHANNEL}"
@@ -82,7 +82,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹ قناة اشعار حب وغزل ❤️🥺 ›", url="https://t.me/kafren1"
+                        "‹ قناة السورس 💸 ›", url="https://t.me/Mus_3b2"
                     )
                 ],
             ]
@@ -102,9 +102,9 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("‹ سوࢪس ڪافࢪين ›", url=f"https://t.me/kafren1"),
+                InlineKeyboardButton("‹ سوࢪس فلوركس ›", url=f"https://t.me/Mus_3b2"),
                 InlineKeyboardButton(
-                    "مطور السورس", url=f"https://t.me/taho11"
+                    "مطور السورس", url=f"https://t.me/iPiiii"
                 ),
             ]
         ]
@@ -129,15 +129,15 @@ async def src(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("‹ سوࢪس ڪافࢪين ›", url=f"https://t.me/kafren1"),
+                InlineKeyboardButton("‹ سوࢪس فلوركس ›", url=f"https://t.me/Mus_3b2"),
                 InlineKeyboardButton(
-                    "‹ مطور السورس ›", url=f"https://t.me/taho11"
+                    "‹ مطور السورس ›", url=f"https://t.me/iPiiii"
                 ),
             ]
         ]
     )
 
-    alive = f"**هلا {message.from_user.mention()}, i'm {BOT_NAME}**\n\nℹ️ 🎶 اهلا بك في سوࢪس ڪافࢪين𖠀\nℹ️  اختصاص هذا البوت لتشغيل مقاطع صوتية او مقاطع الفيديو في المكالمات الصوتية \n\n**⚒ لعرض اوامر البوت يمكنك مشاهده الفيدو او قم بدخول الى خاص البوت وتابع التعليمات** 💖"
+    alive = f"**هلا {message.from_user.mention()}, i'm {BOT_NAME}**\n\nℹ️ 🎶 اهلا بك في سوࢪس فلوركس \nℹ️  اختصاص هذا البوت لتشغيل مقاطع صوتية او مقاطع الفيديو في المكالمات الصوتية \n\n**⚒ لعرض اوامر البوت يمكنك مشاهده الفيدو او قم بدخول الى خاص البوت وتابع التعليمات** 💖"
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
